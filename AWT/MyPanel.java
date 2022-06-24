@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class MyPanel {
     public static void main(String args[]){
-        Frame f = new Frame("Choice");
+        Frame f = new Frame("Panel");
         Panel p = new Panel();
         p.setBounds(50, 60, 200, 200);
         p.setBackground(Color.red);

@@ -5,7 +5,8 @@ public class MyMouseListener extends Frame implements MouseListener{
     MyMouseListener(){  
         addMouseListener(this);  
           
-        setSize(300,300);  
+        setSize(300,300);
+        setTitle("Mouse Listener");  
         setLayout(null);  
         setVisible(true);  
     }  

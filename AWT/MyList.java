@@ -2,7 +2,7 @@ package AWT;
 import java.awt.*;
 public class MyList {
     public static void main(String args[]){
-        Frame f = new Frame("Choice");
+        Frame f = new Frame("List");
         List c = new List();
         c.setBounds(50, 60, 80, 100);
         c.add("Java");

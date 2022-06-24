@@ -7,7 +7,8 @@ public class MyMouseMotion extends Frame implements MouseMotionListener{
         addMouseMotionListener(this);  
         l=new Label();  
         l.setBounds(20,40,100,20);  
-        add(l);   
+        add(l);
+        setTitle("Mouse MOtion");   
         setSize(300,300);  
         setLayout(null);  
         setVisible(true);  
